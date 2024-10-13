@@ -12,7 +12,7 @@ defmodule SaladUI.Input do
       <.input type="password" placeholder="Enter your password" />
   """
   attr :id, :any, default: nil
-  attr :name, :any
+  attr :name, :any, default: nil
   attr :value, :any
 
   attr :type, :string,
